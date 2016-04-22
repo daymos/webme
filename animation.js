@@ -1,7 +1,7 @@
 
 
 
-setInterval(draw,150,[cWidth/10,cHeight/2],'1.5ch','green');
+setInterval(draw,100,[cWidth/10,cHeight/2],'1.5ch','green');
 //console.log(avoid)
 function draw(position, size, color){
 		var id = randomize()
