@@ -6,7 +6,7 @@ var actives = {}
 
  cWidth = perfectFit(maxWidth, 150)
  cHeight = perfectFit(maxHeight,50);
- //console.log(cWidth,cHeight)
+
 
 function perfectFit(maxWidth, minSize){  //calculate best size of canvases
 	var res = listDivisors(maxWidth)

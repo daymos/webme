@@ -28,16 +28,11 @@ function fadeInOut(canvas,text, size, position,id, movement) {
    	var newPosition = [position[0],position[1]]
 
     
-    
-
+ 
        
         var interval = setInterval(function () {
         	newPosition[0] += movement[0]
-    		
 
-    		//console.log("new position: ",newPosition, "id: ", id)
-        	
-            
         	if(!peaked){
         		alpha = alpha + 0.03;
             	canvas.width = canvas.width; // Clears the canvas
@@ -123,25 +118,12 @@ function line(a,b){
 	return [m,q]
 }
 
-
-
-
 function randomPoint(){
 	var x = ~~(Math.random()*10) * Math.pow(-1, ~~(Math.random()*10))
 	var y = ~~(Math.random()*10) * Math.pow(-1, ~~(Math.random()*10))
 
 	return [x,y]
 }
-
-
-
-
-
-
-
-
-
-
 
 // constants
 
